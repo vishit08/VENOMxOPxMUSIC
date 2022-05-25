@@ -33,9 +33,9 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/bdf568ec7a4fc7845330b.png",
+        photo=f"https://telegra.ph/file/5a670e388b93bea85423f.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ 𝙎𝙪𝙥𝙚𝙧𝙁𝙖𝙨𝙩 𝙑𝘾 𝙁𝙪𝙘𝙠𝙚𝙧 
+💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ 𝙎𝙪𝙥𝙚𝙧𝙁𝙖𝙨𝙩 𝙑𝘾 MUSIC PLAYER 
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
 ...
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
@@ -43,7 +43,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="repo", url=f"https://github.com/VENOM-CRAZY/VENOMxOPxMUSIC"),
+                        text="OWNER", url=f"https://t.me/Tokkyyyooo"),
                         InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                       InlineKeyboardButton(text="Group", url=f"https://t.me/{SUPPORT_GROUP}"),
                   ],[
