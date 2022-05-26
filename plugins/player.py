@@ -223,7 +223,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://te.legra.ph/file/d4094ea0b4f1d94ed2932.png"
+            thumb_name = "https://telegra.ph/file/900266e751589099aac61.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
